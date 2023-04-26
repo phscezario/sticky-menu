@@ -2,6 +2,8 @@
     const header = document.querySelector('.ast-main-header-wrap'); // Enter menu class or ID
     const adminBar = document.querySelector('#wpadminbar'); // Add upper bar class or ID
 
+    header.classList.add('main-header-bar-wrap');
+
     let scrollposition = window.scrollY;
 
     function menubar() {
